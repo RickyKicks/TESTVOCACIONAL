@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Orienta con cuentas y perfiles guardados en esta laptop.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2216%22%20fill%3D%22%23225e4c%22%2F%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2220%22%20fill%3D%22none%22%20stroke%3D%22%23edf1e6%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22m40%2023-5%2012-12%206%206-13z%22%20fill%3D%22%23edf1e6%22%2F%3E%3C%2Fsvg%3E">
+  <title>Orienta · Mi perfil vocacional</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+  <header class="header">
+    <div class="navwrap">
+      <button class="brand" data-ir="inicio" aria-label="Orienta, inicio"><span class="brand-icon"><svg width="25" height="25" aria-hidden="true"><use href="#icon-Compass"/></svg></span>orienta<span class="brand-dot">.</span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <button data-ir="inicio" class="active">Inicio</button>
+        <button data-ir="carreras">Explorar carreras</button>
+        <button data-ir="cuenta">Mi cuenta</button>
+      </nav>
+      <button class="nav-cta" data-ir="test"><span id="accion-test">Comenzar mi test</span><svg width="16" height="16" aria-hidden="true"><use href="#icon-ArrowUpRight"/></svg></button>
+      <button class="mobile-toggle" id="abrir-menu" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><svg width="24" height="24" aria-hidden="true"><use href="#icon-Menu"/></svg></button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="container account-strip">
+      <div><strong id="titulo-franja">Orientación con perfil personal</strong><span id="texto-franja" role="status">Puedes responder como invitado o crear una cuenta para guardar tu test al terminar.</span></div>
+      <div class="account-actions">
+        <button class="text-link" data-ir="cuenta"><span id="enlace-cuenta">Entrar o registrarme</span><svg width="16" height="16" aria-hidden="true"><use href="#icon-ArrowRight"/></svg></button>
+      </div>
+    </div>
+    <p class="container" id="aviso" role="status"></p>
+
+    <div id="inicio" data-pantalla>
+      <section class="hero container">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> UNA DECISIÓN QUE EMPIEZA CONTIGO</div>
+          <h1>Tu futuro tiene<br>muchos caminos.<br><em>Encuentra el tuyo.</em></h1>
+          <p class="hero-desc">Descubre las carreras que conectan con tus intereses. Una guía clara para dar tu siguiente paso con más confianza.</p>
+          <div class="hero-actions"><button data-ir="test" class="primary"><span id="accion-portada">Descubrir mi afinidad</span><svg width="18" height="18" aria-hidden="true"><use href="#icon-ArrowRight"/></svg></button></div>
+          <div class="hero-facts">
+            <span><svg width="14" height="14" aria-hidden="true"><use href="#icon-Check"/></svg>25 preguntas</span><span><svg width="14" height="14" aria-hidden="true"><use href="#icon-Check"/></svg>Registro opcional</span><span><svg width="14" height="14" aria-hidden="true"><use href="#icon-Check"/></svg>A tu ritmo</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Ilustración de diferentes caminos hacia tu futuro">
+          <div class="art-grid"></div>
+          <div class="art-top"><span class="small-label">TU PRÓXIMO CAPÍTULO</span><span class="live-dot"></span></div>
+          <svg class="path-art" viewBox="0 0 500 430" fill="none" aria-hidden="true"><path d="M250 430V290Q250 235 180 235H135Q85 235 85 180V115" stroke="#cad9c9" stroke-width="24"/>
+            <path d="M250 430V270Q250 180 325 180H365Q420 180 420 125V70" stroke="#c4bcf5" stroke-width="24"/>
+            <path d="M250 430V60" stroke="#277662" stroke-width="24"/>
+            <path d="M250 430V60" stroke="#b6d8b4" stroke-dasharray="7 15" stroke-width="2"/>
+            <circle cx="250" cy="62" r="31" fill="#174d40"/>
+            <path d="m238 67 12-12 12 12M250 55v23" stroke="#fff" stroke-width="2"/>
+            <circle cx="85" cy="112" r="27" fill="#e5eee2"/>
+            <path d="m74 112 11-11 11 11M85 101v23" stroke="#436d4c" stroke-width="2"/>
+            <circle cx="420" cy="70" r="27" fill="#ddd7ff"/>
+            <path d="m409 70 11-11 11 11M420 59v23" stroke="#6a5cab" stroke-width="2"/>
+            </svg>
+          <div class="floating-card card-a"><span class="icon-box lavender"><svg width="21" height="21" aria-hidden="true"><use href="#icon-Code2"/></svg></span><div><strong>Crear soluciones</strong><small>Tecnología e ingeniería</small></div></div>
+          <div class="floating-card card-b"><span class="icon-box peach"><svg width="21" height="21" aria-hidden="true"><use href="#icon-HeartPulse"/></svg></span><div><strong>Transformar vidas</strong><small>Salud y bienestar</small></div></div>
+          <div class="floating-card card-c"><span class="icon-box sage"><svg width="21" height="21" aria-hidden="true"><use href="#icon-Palette"/></svg></span><div><strong>Imaginar lo posible</strong><small>Diseño y creatividad</small></div></div>
+          <div class="art-bottom"><span>Intereses únicos. Posibilidades reales.</span><svg width="16" height="16" aria-hidden="true"><use href="#icon-Sparkles"/></svg></div>
+        </div>
+      </section>
+      <section class="trust-strip">
+        <div class="container trust-inner">
+          <p>Conócete mejor.<br><strong>Decide con información.</strong></p>
+          <div><strong>50</strong><span>carreras para explorar</span></div>
+          <div><strong>25</strong><span>dimensiones de interés</span></div>
+        </div>
+      </section>
+      <section class="container section">
+        <div class="section-heading">
+          <div><span class="eyebrow">UN PASO A LA VEZ</span><h2>De la curiosidad a la claridad.</h2></div>
+          <p>No necesitas tener todas las respuestas.<br>Solo empezar por lo que te interesa.</p>
+        </div>
+        <div class="three-grid steps">
+          <article><span class="step-num">01</span><h3>Cuéntanos qué te mueve</h3><p>Responde sobre actividades e ideas que despiertan tu interés. No hay respuestas correctas.</p></article>
+          <article><span class="step-num">02</span><h3>Descubre tus afinidades</h3><p>Comparamos tus intereses con 50 perfiles de carrera y te explicamos cada resultado.</p></article>
+          <article><span class="step-num">03</span><h3>Explora tus posibilidades</h3><p>Compara carreras y revisa sus planes de estudio antes de dar el siguiente paso.</p></article>
+        </div>
+      </section>
+      <section class="container explore-band">
+        <div><span class="eyebrow">AMPLÍA TU HORIZONTE</span><h2>Hay más de un camino para ti.</h2><p>Conoce las carreras antes de comenzar tu orientación.</p></div>
+        <button class="secondary" data-ir="carreras">Explorar el catálogo <svg width="17" height="17" aria-hidden="true"><use href="#icon-ArrowUpRight"/></svg></button>
+      </section>
+      <div class="container soft-note"><svg width="17" height="17" aria-hidden="true"><use href="#icon-Info"/></svg><p>Orienta es una herramienta académica de exploración. Tus resultados son un punto de partida para conversar, investigar y decidir.</p></div>
+    </div>
+
+    <section data-pantalla id="test" class="container section quiz-layout" hidden>
+      <aside class="quiz-aside">
+        <span class="eyebrow">TU MAPA DE INTERESES</span><h2>Todo empieza<br>por conocerte.</h2>
+        <p>Piensa en lo que te gustaría hacer, incluso si todavía no tienes experiencia.</p>
+        <ol class="step-list" id="pasos"></ol>
+        <div class="privacy"><svg width="17" height="17" aria-hidden="true"><use href="#icon-Info"/></svg><p>Si has iniciado sesión, tus respuestas se guardan en tu perfil al completar las 25 preguntas.</p></div>
+      </aside>
+      <form id="cuestionario" class="quiz-main">
+        <div class="progress-info"><span id="progreso"></span><span id="contador"></span></div>
+        <div class="progress-track"><div id="barra"></div></div>
+        <h2 id="tema-bloque"></h2><p>¿Cuánto te interesa cada una de estas actividades?</p>
+        <div id="preguntas" class="questions"></div>
+        <div class="quiz-buttons">
+          <button class="text-link" type="button" id="anterior"><svg width="17" height="17" aria-hidden="true"><use href="#icon-ChevronLeft"/></svg><span></span></button>
+          <button class="primary" id="siguiente"><span></span><svg width="17" height="17" aria-hidden="true"><use href="#icon-ArrowRight"/></svg></button>
+        </div>
+      </form>
+    </section>
+
+    <section id="carreras" class="container section" data-pantalla hidden>
+      <div class="page-heading"><span class="eyebrow">50 FORMAS DE CONSTRUIR TU FUTURO</span><h1>Explora tus posibilidades.</h1><p>Conoce lo que se estudia en cada carrera. Selecciona entre 2 y 4 para comparar su afinidad con tus intereses.</p></div>
+      <div class="catalog-filters">
+        <label class="search"><svg width="18" height="18" aria-hidden="true"><use href="#icon-Search"/></svg><input id="buscar" aria-label="Buscar carrera" placeholder="Buscar una carrera…"></label>
+        <select id="area" aria-label="Filtrar por área"><option value="">Todas</option></select>
+        <span id="cuantas-carreras"></span>
+      </div>
+      <div class="catalog-grid" id="fichas"></div>
+      <div class="empty-state" id="sin-carreras" hidden><h2>No encontramos esa carrera.</h2><p>Prueba otro nombre o cambia el filtro de área.</p><button class="secondary" id="quitar-filtros">Limpiar filtros</button></div>
+      <div class="compare-bar" id="comparador" hidden>
+        <div><strong id="cantidad-seleccion"></strong><span id="nombres-seleccion"></span></div>
+        <button class="text-link" id="limpiar">Limpiar</button><button class="primary" id="comparar"><span></span><svg width="16" height="16" aria-hidden="true"><use href="#icon-ArrowRight"/></svg></button>
+      </div>
+    </section>
+
+    <section id="resultados" class="container section" data-pantalla hidden>
+      <div class="page-heading"><span class="eyebrow">TU MAPA, TUS POSIBILIDADES</span><h1 id="titulo-resultado"></h1><p id="descripcion-calculo"></p></div>
+      <div class="results-tools">
+        <div class="segmented"><button id="todas">Todas las carreras</button><button id="mi-comparacion">Mi comparación</button></div>
+        <div class="action-row"><button class="secondary small" id="exportar"><svg width="16" height="16" aria-hidden="true"><use href="#icon-Download"/></svg>Exportar resultados</button>
+          <button class="secondary small" id="imprimir">Imprimir</button><button class="text-link" data-ir="test">Editar respuestas</button></div>
+      </div>
+      <div class="notice" role="status" id="uniformes" hidden><strong>Respondiste lo mismo a todas las preguntas.</strong><p>Puedes revisar tus respuestas y pensar qué actividades te interesan más que otras.</p></div>
+      <div class="section-heading compact"><h2 id="encabezado-lista"></h2><span id="cantidad-resultados"></span></div>
+      <div class="three-grid result-grid" id="destacadas"></div>
+      <div class="section-heading compact"><div><h2>Tu lista completa</h2><p>Abre el cálculo para ver tus 25 respuestas, el perfil de la carrera y la suma de los mínimos.</p></div></div>
+      <div class="table-wrap"><table><caption id="titulo-tabla"></caption>
+        <thead><tr><th>Orden</th><th>Carrera</th><th>Área</th><th>Sumatoria</th><th>Cálculo</th></tr></thead>
+        <tbody id="lista-resultados"></tbody>
+      </table></div>
+      <div class="next-step"><svg width="28" height="28" aria-hidden="true"><use href="#icon-BookOpen"/></svg><div><h3>La siguiente decisión merece una conversación.</h3><p>Consulta planes de estudio, habla con estudiantes y visita un servicio de orientación vocacional.</p></div>
+        <button class="secondary" data-ir="carreras">Comparar opciones <svg width="17" height="17" aria-hidden="true"><use href="#icon-ArrowRight"/></svg></button></div>
+    </section>
+
+    <section id="cuenta" class="container section account-page" data-pantalla hidden>
+      <div id="invitado">
+        <div class="page-heading"><span class="eyebrow">TU CUENTA EN ORIENTA</span><h1>Guarda tu mapa<br>de intereses.</h1><p>Retoma tus respuestas y continúa tu orientación.</p></div>
+        <div class="account-auth-grid">
+          <form class="panel account-form" id="acceso">
+            <div class="segmented" aria-label="Acceso a la cuenta"><button type="button" id="modo-entrar" class="active">Iniciar sesión</button><button type="button" id="modo-registro">Crear cuenta</button></div>
+            <h2 id="titulo-acceso">Vuelve a tu perfil</h2>
+            <label class="form-label">Usuario<input name="nombre" autocomplete="username" required minlength="3" maxlength="30" pattern="[A-Za-z0-9_]{3,30}" aria-describedby="ayuda-usuario" spellcheck="false"></label>
+            <p class="account-help" id="ayuda-usuario">De 3 a 30 letras sin acentos, números o guion bajo.</p>
+            <label class="form-label">Contraseña<input id="clave" name="clave" type="password" autocomplete="current-password" required minlength="10" maxlength="128" aria-describedby="ayuda-clave"></label>
+            <p class="account-help" id="ayuda-clave">Usa al menos 10 caracteres.</p>
+            <label class="form-label" id="confirmacion" hidden>Repite la contraseña<input id="confirmar-clave" type="password" autocomplete="new-password" minlength="10" maxlength="128" disabled></label>
+            <button class="primary" type="submit"><span id="accion-acceso">Entrar a mi cuenta</span><svg width="17" height="17" aria-hidden="true"><use href="#icon-ArrowRight"/></svg></button>
+            <p class="error" role="alert" id="error-acceso" hidden></p>
+            <p class="account-help" id="nota-entrada">Al entrar se cargarán las respuestas guardadas en esa cuenta.</p>
+          </form>
+          <aside class="account-intro"><span class="account-symbol"><svg width="30" height="30" aria-hidden="true"><use href="#icon-LockKeyhole"/></svg></span><h2>Tu avance, en tu cuenta.</h2>
+            <p>Tus respuestas son privadas. Inicia sesión para guardar tu test automáticamente al terminar y consultar tus respuestas después.</p>
+            <p>Esta versión guarda las cuentas y respuestas en la base de datos de la laptop de la exposición.</p>
+            <button class="text-link" data-ir="test">Continuar el test como invitado <svg width="17" height="17" aria-hidden="true"><use href="#icon-ArrowRight"/></svg></button>
+          </aside>
+        </div>
+      </div>
+      <div id="perfil" hidden>
+        <div class="account-title-row"><div class="page-heading"><span class="eyebrow">MI PERFIL</span><h1 id="nombre-cuenta"></h1><p id="estado-cuenta"></p></div>
+          <button class="secondary" id="salir"><svg width="17" height="17" aria-hidden="true"><use href="#icon-LogOut"/></svg>Cerrar sesión</button></div>
+        <div class="account-profile-grid"><article class="panel account-summary"><svg width="27" height="27" aria-hidden="true"><use href="#icon-UserRound"/></svg><h2>Mis respuestas</h2><p id="estado-borrador"></p>
+          <div class="account-actions">
+            <button class="secondary" data-ir="test">Editar cuestionario <svg width="17" height="17" aria-hidden="true"><use href="#icon-ArrowRight"/></svg></button>
+            <button class="text-link" id="ver-resultados" data-ir="resultados">Ver mis resultados <svg width="17" height="17" aria-hidden="true"><use href="#icon-ArrowRight"/></svg></button>
+          </div></article></div>
+        <div class="section-heading compact"><h2>Respuestas guardadas</h2><span id="pendiente" hidden>Tu borrador aún tiene cambios pendientes.</span></div>
+        <ol class="account-answers" id="mis-respuestas"></ol>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container footer-inner"><span class="brand"><svg width="23" height="23" aria-hidden="true"><use href="#icon-Compass"/></svg>orienta.</span><p>Una guía para explorar. Una decisión que es tuya.</p><span>Proyecto académico · 2026</span></div></footer>
+  <dialog id="detalle" class="modal" aria-labelledby="titulo-ficha">
+    <form method="dialog"><button aria-label="Cerrar ficha" class="close" autofocus><svg width="24" height="24" aria-hidden="true"><use href="#icon-X"/></svg></button></form>
+    <span class="icon-box sage" id="icono-ficha"></span><span class="area-label" id="area-ficha"></span>
+    <h2 id="titulo-ficha"></h2><p id="descripcion-ficha"></p>
+    <details class="score-detail" id="detalle-calculo"><summary>Ver cálculo por pregunta</summary><div id="contenido-calculo"></div></details>
+    <h3>¿Qué podrías estudiar?</h3><div class="chips" id="materias"></div>
+    <h3>Actividades relacionadas</h3><ul id="actividades"></ul>
+    <h3>Perfil editorial de referencia</h3><div class="profile-bars" id="perfil-carrera"></div>
+    <p class="small-print">Estos valores representan la relación de la carrera con cada interés en el catálogo del proyecto. Revisa el plan de estudios de la institución donde quieras estudiar.</p>
+    <a class="primary" id="fuente" target="_blank" rel="noreferrer">Consultar fuente oficial <svg width="17" height="17" aria-hidden="true"><use href="#icon-ArrowUpRight"/></svg></a>
+    <button class="text-link" id="seleccionar-ficha"></button>
+  </dialog>
+
+  <template id="tarjeta-carrera">
+    <article class="career-card">
+      <div class="card-top"><span class="icon-box"></span><label class="compare-check"><input type="checkbox">Comparar</label></div>
+      <span class="area-label"></span><h3></h3><p></p>
+      <button class="card-link">Conocer carrera <svg width="17" height="17" aria-hidden="true"><use href="#icon-ArrowUpRight"/></svg></button>
+    </article>
+  </template>
+  <template id="tarjeta-resultado">
+    <article class="result-card">
+      <div class="card-top"><span class="tag"></span></div>
+      <span class="area-label"></span><h3></h3>
+      <div class="score"><span></span><small>/25</small></div>
+      <div class="score-track"><div></div></div><p class="score-caption">Suma de coincidencias · puntos</p>
+      <h4>Mayores coincidencias</h4><div class="chips"></div>
+      <button class="card-link">Explorar esta carrera <svg width="17" height="17" aria-hidden="true"><use href="#icon-ArrowUpRight"/></svg></button>
+    </article>
+  </template>
+  <!-- Símbolos compartidos por los botones, las fichas y la ilustración. -->
+  <svg class="iconos" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-Compass" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"></path></g></symbol>
+    <symbol id="icon-ArrowRight" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></g></symbol>
+    <symbol id="icon-ArrowUpRight" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></g></symbol>
+    <symbol id="icon-Check" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></g></symbol>
+    <symbol id="icon-Code2" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 4"></path><path d="m14.5 4-5 16"></path></g></symbol>
+    <symbol id="icon-HeartPulse" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path><path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"></path></g></symbol>
+    <symbol id="icon-Palette" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"></path><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle></g></symbol>
+    <symbol id="icon-Building2" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 12h4"></path><path d="M10 8h4"></path><path d="M14 21v-3a2 2 0 0 0-4 0v3"></path><path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"></path><path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"></path></g></symbol>
+    <symbol id="icon-Scale" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"></path><path d="m19 8 3 8a5 5 0 0 1-6 0zV7"></path><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1"></path><path d="m5 8 3 8a5 5 0 0 1-6 0zV7"></path><path d="M7 21h10"></path></g></symbol>
+    <symbol id="icon-Leaf" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></g></symbol>
+    <symbol id="icon-BookOpen" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v16"></path><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"></path></g></symbol>
+    <symbol id="icon-GraduationCap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path><path d="M22 10v6"></path><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path></g></symbol>
+    <symbol id="icon-LockKeyhole" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="16" r="1"></circle><rect x="3" y="10" width="18" height="12" rx="2"></rect><path d="M7 10V7a5 5 0 0 1 10 0v3"></path></g></symbol>
+    <symbol id="icon-UserRound" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"></circle><path d="M20 21a8 8 0 0 0-16 0"></path></g></symbol>
+    <symbol id="icon-LogOut" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 17 5-5-5-5"></path><path d="M21 12H9"></path><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path></g></symbol>
+    <symbol id="icon-ChevronLeft" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"></path></g></symbol>
+    <symbol id="icon-Menu" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></g></symbol>
+    <symbol id="icon-Search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></g></symbol>
+    <symbol id="icon-Download" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="m7 10 5 5 5-5"></path></g></symbol>
+    <symbol id="icon-Info" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></g></symbol>
+    <symbol id="icon-Sparkles" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></g></symbol>
+    <symbol id="icon-X" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></g></symbol>
+  </svg>
+  <!--
+ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+
+
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+  -->
+</body>
+</html>

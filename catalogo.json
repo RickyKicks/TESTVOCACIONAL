@@ -1,0 +1,981 @@
+{
+  "preguntas": [
+    {
+      "id": "matematicas",
+      "tema": "Matemáticas y lógica",
+      "texto": "¿Qué tanto te interesa resolver problemas con números y razonamiento lógico?"
+    },
+    {
+      "id": "tecnologia",
+      "tema": "Tecnología y programación",
+      "texto": "¿Qué tanto te interesa crear programas o entender cómo funcionan las computadoras?"
+    },
+    {
+      "id": "salud",
+      "tema": "Biología y salud",
+      "texto": "¿Qué tanto te interesa comprender los seres vivos y el cuidado de la salud?"
+    },
+    {
+      "id": "investigacion",
+      "tema": "Investigación científica",
+      "texto": "¿Qué tanto te interesa formular preguntas y buscar respuestas mediante investigación?"
+    },
+    {
+      "id": "lectura",
+      "tema": "Lectura y escritura",
+      "texto": "¿Qué tanto disfrutas leer textos extensos y expresar ideas por escrito?"
+    },
+    {
+      "id": "comunicacion",
+      "tema": "Comunicación y argumentación",
+      "texto": "¿Qué tanto te interesa explicar ideas, debatir y construir argumentos?"
+    },
+    {
+      "id": "ayuda",
+      "tema": "Acompañamiento a personas",
+      "texto": "¿Qué tanto te interesa escuchar y acompañar a personas que necesitan apoyo?"
+    },
+    {
+      "id": "ensenanza",
+      "tema": "Enseñanza y aprendizaje",
+      "texto": "¿Qué tanto te interesa ayudar a otras personas a aprender algo nuevo?"
+    },
+    {
+      "id": "diseno",
+      "tema": "Creatividad visual",
+      "texto": "¿Qué tanto disfrutas crear imágenes, composiciones o propuestas visuales?"
+    },
+    {
+      "id": "espacios",
+      "tema": "Espacios y construcción",
+      "texto": "¿Qué tanto te interesa imaginar espacios, interpretar planos o diseñar estructuras?"
+    },
+    {
+      "id": "negocios",
+      "tema": "Negocios y emprendimiento",
+      "texto": "¿Qué tanto te interesa desarrollar negocios y comprender cómo funcionan las organizaciones?"
+    },
+    {
+      "id": "organizacion",
+      "tema": "Organización y gestión",
+      "texto": "¿Qué tanto disfrutas organizar recursos, tiempos y actividades de un proyecto?"
+    },
+    {
+      "id": "datos",
+      "tema": "Análisis de información",
+      "texto": "¿Qué tanto te interesa comparar datos y descubrir patrones para tomar decisiones?"
+    },
+    {
+      "id": "practica",
+      "tema": "Experimentación y práctica",
+      "texto": "¿Qué tanto te interesa aprender mediante experimentos, prototipos o trabajo práctico?"
+    },
+    {
+      "id": "sociedad",
+      "tema": "Sociedad y asuntos públicos",
+      "texto": "¿Qué tanto te interesa comprender problemas sociales y participar en sus soluciones?"
+    },
+    {
+      "id": "ambiente",
+      "tema": "Ambiente y sostenibilidad",
+      "texto": "¿Qué tanto te interesa proponer formas de cuidar los ecosistemas y usar responsablemente los recursos naturales?"
+    },
+    {
+      "id": "mecanica",
+      "tema": "Mecánica y máquinas",
+      "texto": "¿Qué tanto te interesa entender cómo funcionan las máquinas y mejorar sus mecanismos?"
+    },
+    {
+      "id": "materiales",
+      "tema": "Química y materiales",
+      "texto": "¿Qué tanto te interesa conocer las propiedades de las sustancias y desarrollar materiales con nuevos usos?"
+    },
+    {
+      "id": "idiomas",
+      "tema": "Idiomas y traducción",
+      "texto": "¿Qué tanto te interesa aprender otras lenguas e interpretar mensajes entre distintos idiomas?"
+    },
+    {
+      "id": "historia",
+      "tema": "Historia y cultura",
+      "texto": "¿Qué tanto te interesa estudiar cómo vivían otras sociedades y comprender su legado cultural?"
+    },
+    {
+      "id": "audiovisual",
+      "tema": "Creación audiovisual",
+      "texto": "¿Qué tanto te interesa contar historias mediante video, fotografía o sonido?"
+    },
+    {
+      "id": "finanzas",
+      "tema": "Finanzas y presupuestos",
+      "texto": "¿Qué tanto te interesa planear presupuestos y analizar cómo se obtienen y utilizan los recursos económicos?"
+    },
+    {
+      "id": "campo",
+      "tema": "Trabajo de campo",
+      "texto": "¿Qué tanto te interesa visitar comunidades o entornos naturales para observar y reunir información directamente?"
+    },
+    {
+      "id": "precision",
+      "tema": "Precisión y detalle",
+      "texto": "¿Qué tanto disfrutas revisar detalles, medidas o registros para detectar errores y mejorar la calidad de un trabajo?"
+    },
+    {
+      "id": "mediacion",
+      "tema": "Mediación y negociación",
+      "texto": "¿Qué tanto te interesa ayudar a personas con puntos de vista distintos a llegar a acuerdos?"
+    }
+  ],
+  "carreras": [
+    {
+      "nombre": "Ingeniería en Computación",
+      "id": "computacion",
+      "area": "Ingeniería y tecnología",
+      "descripcion": "Diseña sistemas de software y hardware para resolver problemas de información y automatización.",
+      "materias": [
+        "Programación",
+        "Matemáticas",
+        "Sistemas computacionales"
+      ],
+      "actividades": [
+        "Desarrollar software",
+        "Diseñar redes y sistemas"
+      ],
+      "perfil": [1, 1, 0.1, 0.75, 0.4, 0.4, 0.25, 0.35, 0.35, 0.35, 0.4, 0.65, 1, 0.8, 0.25, 0.25, 0.5, 0.2, 0.55, 0.15, 0.45, 0.4, 0.15, 0.95, 0.35],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ingenieria-en-computacion"
+    },
+    {
+      "nombre": "Medicina",
+      "id": "medicina",
+      "area": "Salud y ciencias de la vida",
+      "descripcion": "Estudia el cuerpo humano, la prevención y la atención de problemas de salud. La referencia corresponde a Médico Cirujano.",
+      "materias": [
+        "Ciencias biomédicas",
+        "Práctica clínica",
+        "Salud pública"
+      ],
+      "actividades": [
+        "Atención clínica",
+        "Prevención e investigación en salud"
+      ],
+      "perfil": [0.45, 0.25, 1, 0.9, 0.75, 0.7, 1, 0.6, 0.1, 0.1, 0.1, 0.7, 0.8, 0.9, 0.65, 0.35, 0.25, 0.85, 0.4, 0.3, 0.15, 0.15, 0.65, 1, 0.65],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=medico-cirujano"
+    },
+    {
+      "nombre": "Psicología",
+      "id": "psicologia",
+      "area": "Salud y ciencias de la vida",
+      "descripcion": "Investiga el comportamiento y los procesos psicológicos en contextos individuales y sociales.",
+      "materias": [
+        "Procesos psicológicos",
+        "Métodos de investigación",
+        "Evaluación"
+      ],
+      "actividades": [
+        "Investigación del comportamiento",
+        "Intervención psicológica"
+      ],
+      "perfil": [0.4, 0.25, 0.65, 0.85, 0.85, 0.85, 1, 0.7, 0.3, 0.1, 0.25, 0.6, 0.8, 0.55, 0.9, 0.3, 0.1, 0.25, 0.45, 0.6, 0.25, 0.15, 0.75, 0.85, 0.95],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=psicologia"
+    },
+    {
+      "nombre": "Derecho",
+      "id": "derecho",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Analiza normas e instituciones para interpretar problemas jurídicos y proponer soluciones.",
+      "materias": [
+        "Teoría del derecho",
+        "Derecho constitucional",
+        "Derecho civil"
+      ],
+      "actividades": [
+        "Asesoría jurídica",
+        "Argumentación y análisis normativo"
+      ],
+      "perfil": [0.2, 0.2, 0.1, 0.6, 1, 1, 0.7, 0.45, 0.15, 0.1, 0.5, 0.75, 0.6, 0.25, 1, 0.4, 0.05, 0.1, 0.65, 0.85, 0.2, 0.6, 0.55, 0.95, 1],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=derecho"
+    },
+    {
+      "nombre": "Arquitectura",
+      "id": "arquitectura",
+      "area": "Diseño y creación",
+      "descripcion": "Proyecta espacios habitables considerando necesidades humanas, construcción y entorno.",
+      "materias": [
+        "Proyecto arquitectónico",
+        "Construcción",
+        "Representación"
+      ],
+      "actividades": [
+        "Diseñar espacios",
+        "Coordinar proyectos arquitectónicos"
+      ],
+      "perfil": [0.75, 0.55, 0.15, 0.5, 0.45, 0.65, 0.4, 0.3, 1, 1, 0.4, 0.8, 0.5, 0.85, 0.6, 0.85, 0.55, 0.6, 0.35, 0.85, 0.6, 0.7, 0.8, 0.95, 0.75],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=arquitectura"
+    },
+    {
+      "nombre": "Administración",
+      "id": "administracion",
+      "area": "Negocios y gestión",
+      "descripcion": "Organiza recursos y estrategias para el funcionamiento y desarrollo de organizaciones.",
+      "materias": [
+        "Administración",
+        "Finanzas",
+        "Mercadotecnia"
+      ],
+      "actividades": [
+        "Gestionar proyectos",
+        "Planear estrategias empresariales"
+      ],
+      "perfil": [0.65, 0.45, 0.1, 0.4, 0.6, 0.85, 0.5, 0.45, 0.35, 0.15, 1, 1, 0.8, 0.45, 0.6, 0.45, 0.2, 0.15, 0.65, 0.35, 0.4, 1, 0.4, 0.85, 1],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=administracion"
+    },
+    {
+      "nombre": "Contaduría",
+      "id": "contaduria",
+      "area": "Negocios y gestión",
+      "descripcion": "Produce y analiza información financiera para apoyar decisiones y el control de recursos.",
+      "materias": [
+        "Contabilidad",
+        "Auditoría",
+        "Finanzas"
+      ],
+      "actividades": [
+        "Analizar estados financieros",
+        "Revisar controles y obligaciones"
+      ],
+      "perfil": [0.9, 0.5, 0.05, 0.45, 0.65, 0.55, 0.3, 0.3, 0.1, 0.1, 0.9, 1, 0.95, 0.35, 0.4, 0.25, 0.1, 0.05, 0.35, 0.2, 0.1, 1, 0.2, 1, 0.65],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=contaduria"
+    },
+    {
+      "nombre": "Diseño Gráfico",
+      "id": "diseno",
+      "area": "Diseño y creación",
+      "descripcion": "Desarrolla mensajes y soluciones visuales para necesidades de comunicación.",
+      "materias": [
+        "Comunicación visual",
+        "Diseño editorial",
+        "Técnicas de representación"
+      ],
+      "actividades": [
+        "Crear identidad visual",
+        "Diseñar materiales editoriales"
+      ],
+      "perfil": [0.25, 0.65, 0.1, 0.45, 0.6, 0.85, 0.3, 0.35, 1, 0.55, 0.55, 0.65, 0.35, 0.85, 0.55, 0.45, 0.2, 0.4, 0.5, 0.75, 0.95, 0.4, 0.35, 0.9, 0.6],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=diseno-grafico"
+    },
+    {
+      "nombre": "Enfermería",
+      "id": "enfermeria",
+      "area": "Salud y ciencias de la vida",
+      "descripcion": "Se enfoca en el cuidado de personas y comunidades a lo largo de distintas situaciones de salud.",
+      "materias": [
+        "Cuidado de enfermería",
+        "Ciencias de la salud",
+        "Salud comunitaria"
+      ],
+      "actividades": [
+        "Brindar cuidados",
+        "Promover hábitos de salud"
+      ],
+      "perfil": [0.35, 0.2, 1, 0.6, 0.55, 0.75, 1, 0.85, 0.1, 0.1, 0.1, 0.85, 0.55, 1, 0.8, 0.45, 0.15, 0.65, 0.35, 0.3, 0.15, 0.2, 0.8, 1, 0.75],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=enfermeria"
+    },
+    {
+      "nombre": "Ingeniería Civil",
+      "id": "civil",
+      "area": "Ingeniería y tecnología",
+      "descripcion": "Planea y desarrolla infraestructura mediante conocimientos de estructuras, materiales y recursos.",
+      "materias": [
+        "Estructuras",
+        "Hidráulica",
+        "Construcción"
+      ],
+      "actividades": [
+        "Diseñar infraestructura",
+        "Supervisar obras"
+      ],
+      "perfil": [1, 0.6, 0.15, 0.65, 0.4, 0.5, 0.25, 0.25, 0.5, 1, 0.55, 0.9, 0.8, 1, 0.5, 0.85, 0.85, 0.85, 0.3, 0.3, 0.2, 0.8, 0.95, 1, 0.65],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ingenieria-civil"
+    },
+    {
+      "nombre": "Ingeniería Industrial",
+      "id": "industrial",
+      "area": "Ingeniería y tecnología",
+      "descripcion": "Mejora procesos productivos mediante análisis, tecnología y organización de recursos.",
+      "materias": [
+        "Investigación de operaciones",
+        "Producción",
+        "Gestión de recursos"
+      ],
+      "actividades": [
+        "Optimizar procesos",
+        "Gestionar producción y calidad"
+      ],
+      "perfil": [0.95, 0.65, 0.1, 0.6, 0.45, 0.65, 0.35, 0.4, 0.3, 0.45, 0.85, 1, 0.95, 0.8, 0.4, 0.7, 0.8, 0.55, 0.45, 0.15, 0.15, 0.9, 0.55, 1, 0.85],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ingenieria-industrial"
+    },
+    {
+      "nombre": "Biología",
+      "id": "biologia",
+      "area": "Salud y ciencias de la vida",
+      "descripcion": "Estudia organismos y ecosistemas, desde procesos celulares hasta sus relaciones con el ambiente.",
+      "materias": [
+        "Biología celular",
+        "Ecología",
+        "Evolución"
+      ],
+      "actividades": [
+        "Investigar seres vivos",
+        "Estudiar ecosistemas"
+      ],
+      "perfil": [0.65, 0.45, 1, 1, 0.7, 0.5, 0.35, 0.65, 0.2, 0.2, 0.1, 0.5, 0.9, 1, 0.55, 1, 0.2, 0.75, 0.35, 0.45, 0.3, 0.1, 1, 0.9, 0.35],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=biologia"
+    },
+    {
+      "nombre": "Pedagogía",
+      "id": "pedagogia",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Analiza procesos educativos y diseña propuestas para mejorar la enseñanza y el aprendizaje.",
+      "materias": [
+        "Teoría educativa",
+        "Didáctica",
+        "Investigación educativa"
+      ],
+      "actividades": [
+        "Diseñar experiencias educativas",
+        "Evaluar programas formativos"
+      ],
+      "perfil": [0.3, 0.4, 0.25, 0.75, 0.9, 0.9, 0.9, 1, 0.55, 0.15, 0.25, 0.8, 0.6, 0.6, 0.9, 0.35, 0.05, 0.1, 0.65, 0.8, 0.65, 0.25, 0.65, 0.7, 0.9],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=pedagogia"
+    },
+    {
+      "nombre": "Ciencias de la Comunicación",
+      "id": "comunicacion",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Estudia procesos comunicativos y produce contenidos para diferentes medios y públicos.",
+      "materias": [
+        "Teoría de la comunicación",
+        "Investigación social",
+        "Producción de medios"
+      ],
+      "actividades": [
+        "Producir contenidos",
+        "Investigar medios y audiencias"
+      ],
+      "perfil": [0.25, 0.6, 0.1, 0.7, 1, 1, 0.45, 0.5, 0.8, 0.15, 0.5, 0.65, 0.65, 0.75, 0.9, 0.4, 0.1, 0.1, 0.85, 0.85, 1, 0.4, 0.85, 0.8, 0.8],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ciencias-de-la-comunicacion"
+    },
+    {
+      "nombre": "Economía",
+      "id": "economia",
+      "area": "Negocios y gestión",
+      "descripcion": "Estudia la producción, distribución y uso de recursos y sus efectos en la sociedad.",
+      "materias": [
+        "Microeconomía",
+        "Macroeconomía",
+        "Métodos cuantitativos"
+      ],
+      "actividades": [
+        "Analizar fenómenos económicos",
+        "Evaluar políticas y proyectos"
+      ],
+      "perfil": [1, 0.55, 0.1, 0.9, 0.85, 0.75, 0.3, 0.4, 0.1, 0.15, 0.85, 0.65, 1, 0.3, 1, 0.6, 0.1, 0.1, 0.65, 0.8, 0.15, 1, 0.55, 0.95, 0.75],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=economia"
+    },
+    {
+      "nombre": "Ciencia de Datos",
+      "id": "datos",
+      "area": "Ingeniería y tecnología",
+      "descripcion": "Integra herramientas matemáticas y computacionales para extraer información de conjuntos de datos.",
+      "materias": [
+        "Estadística",
+        "Computación",
+        "Modelado"
+      ],
+      "actividades": [
+        "Construir modelos de datos",
+        "Comunicar hallazgos analíticos"
+      ],
+      "perfil": [1, 1, 0.2, 0.95, 0.5, 0.6, 0.2, 0.35, 0.35, 0.1, 0.4, 0.6, 1, 0.65, 0.35, 0.35, 0.25, 0.2, 0.5, 0.2, 0.2, 0.65, 0.3, 1, 0.35],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ciencia-de-datos"
+    },
+    {
+      "nombre": "Ingeniería Mecatrónica",
+      "id": "mecatronica",
+      "area": "Ingeniería y tecnología",
+      "descripcion": "Integra mecánica, electrónica y computación en sistemas y productos automatizados.",
+      "materias": [
+        "Mecánica",
+        "Electrónica",
+        "Control y programación"
+      ],
+      "actividades": [
+        "Diseñar sistemas automatizados",
+        "Construir prototipos"
+      ],
+      "perfil": [1, 0.95, 0.1, 0.8, 0.35, 0.4, 0.15, 0.3, 0.6, 0.75, 0.35, 0.65, 0.8, 1, 0.2, 0.5, 1, 0.6, 0.35, 0.1, 0.25, 0.35, 0.3, 1, 0.35],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ingenieria-mecatronica"
+    },
+    {
+      "nombre": "Química",
+      "id": "quimica",
+      "area": "Salud y ciencias de la vida",
+      "descripcion": "Investiga la composición y transformación de la materia y sus aplicaciones.",
+      "materias": [
+        "Química orgánica",
+        "Química analítica",
+        "Fisicoquímica"
+      ],
+      "actividades": [
+        "Analizar sustancias",
+        "Desarrollar experimentos"
+      ],
+      "perfil": [0.9, 0.4, 0.7, 1, 0.65, 0.4, 0.2, 0.45, 0.15, 0.15, 0.2, 0.65, 0.9, 1, 0.35, 0.8, 0.3, 1, 0.35, 0.25, 0.1, 0.15, 0.45, 1, 0.2],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=quimica"
+    },
+    {
+      "nombre": "Relaciones Internacionales",
+      "id": "internacionales",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Analiza relaciones entre países y actores internacionales en ámbitos políticos, económicos y sociales.",
+      "materias": [
+        "Política internacional",
+        "Economía internacional",
+        "Derecho internacional"
+      ],
+      "actividades": [
+        "Analizar escenarios internacionales",
+        "Colaborar en cooperación y negociación"
+      ],
+      "perfil": [0.45, 0.25, 0.1, 0.8, 1, 1, 0.55, 0.45, 0.2, 0.15, 0.75, 0.7, 0.7, 0.3, 1, 0.65, 0.05, 0.1, 1, 0.95, 0.25, 0.85, 0.7, 0.85, 1],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=relaciones-internacionales"
+    },
+    {
+      "nombre": "Trabajo Social",
+      "id": "social",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Interviene en contextos sociales con estrategias que atienden necesidades de personas y comunidades.",
+      "materias": [
+        "Intervención social",
+        "Política social",
+        "Investigación social"
+      ],
+      "actividades": [
+        "Desarrollar proyectos comunitarios",
+        "Investigar necesidades sociales"
+      ],
+      "perfil": [0.3, 0.25, 0.4, 0.75, 0.8, 0.9, 1, 0.85, 0.25, 0.15, 0.2, 0.85, 0.65, 0.75, 1, 0.55, 0.05, 0.15, 0.45, 0.7, 0.3, 0.35, 1, 0.7, 1],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=trabajo-social"
+    },
+    {
+      "nombre": "Actuaría",
+      "id": "actuaria",
+      "area": "Ciencias exactas",
+      "descripcion": "Construye modelos matemáticos para analizar riesgos y apoyar decisiones financieras, demográficas y de seguros.",
+      "materias": [
+        "Probabilidad",
+        "Estadística",
+        "Matemáticas financieras"
+      ],
+      "actividades": [
+        "Modelar riesgos",
+        "Analizar escenarios financieros"
+      ],
+      "perfil": [1, 0.75, 0.1, 0.8, 0.5, 0.5, 0.2, 0.3, 0.1, 0.1, 0.85, 0.65, 1, 0.35, 0.5, 0.45, 0.05, 0.05, 0.4, 0.15, 0.1, 1, 0.2, 1, 0.4],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=actuaria"
+    },
+    {
+      "nombre": "Matemáticas",
+      "id": "matematicas",
+      "area": "Ciencias exactas",
+      "descripcion": "Estudia estructuras y relaciones abstractas y desarrolla herramientas para modelar problemas de distintas disciplinas.",
+      "materias": [
+        "Álgebra",
+        "Análisis matemático",
+        "Geometría"
+      ],
+      "actividades": [
+        "Demostrar resultados",
+        "Desarrollar modelos matemáticos"
+      ],
+      "perfil": [1, 0.65, 0.1, 1, 0.65, 0.5, 0.15, 0.8, 0.15, 0.3, 0.15, 0.4, 0.95, 0.4, 0.2, 0.2, 0.25, 0.1, 0.4, 0.35, 0.1, 0.45, 0.15, 1, 0.2],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=matematicas"
+    },
+    {
+      "nombre": "Física",
+      "id": "fisica",
+      "area": "Ciencias exactas",
+      "descripcion": "Investiga la materia, la energía y los fenómenos naturales mediante modelos matemáticos y experimentación.",
+      "materias": [
+        "Mecánica",
+        "Electromagnetismo",
+        "Física cuántica"
+      ],
+      "actividades": [
+        "Diseñar experimentos",
+        "Explicar fenómenos físicos"
+      ],
+      "perfil": [1, 0.65, 0.15, 1, 0.6, 0.45, 0.15, 0.6, 0.2, 0.4, 0.1, 0.4, 0.95, 1, 0.2, 0.6, 0.9, 0.8, 0.4, 0.3, 0.15, 0.1, 0.65, 1, 0.2],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=fisica"
+    },
+    {
+      "nombre": "Ingeniería Eléctrica Electrónica",
+      "id": "electrica",
+      "area": "Ingeniería y tecnología",
+      "descripcion": "Desarrolla sistemas eléctricos y electrónicos para energía, comunicaciones, instrumentación y automatización.",
+      "materias": [
+        "Circuitos eléctricos",
+        "Electrónica",
+        "Sistemas eléctricos"
+      ],
+      "actividades": [
+        "Diseñar circuitos",
+        "Analizar sistemas eléctricos"
+      ],
+      "perfil": [1, 0.85, 0.1, 0.75, 0.4, 0.4, 0.15, 0.25, 0.3, 0.5, 0.3, 0.6, 0.8, 1, 0.2, 0.7, 0.85, 0.55, 0.35, 0.15, 0.2, 0.35, 0.5, 1, 0.3],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ingenieria-electrica-electronica"
+    },
+    {
+      "nombre": "Ingeniería Mecánica",
+      "id": "mecanica",
+      "area": "Ingeniería y tecnología",
+      "descripcion": "Diseña y mejora máquinas y sistemas mecánicos considerando materiales, movimiento y transformación de energía.",
+      "materias": [
+        "Mecánica",
+        "Termodinámica",
+        "Diseño de máquinas"
+      ],
+      "actividades": [
+        "Diseñar maquinaria",
+        "Evaluar sistemas mecánicos"
+      ],
+      "perfil": [1, 0.65, 0.1, 0.7, 0.35, 0.4, 0.15, 0.25, 0.5, 0.8, 0.35, 0.65, 0.7, 1, 0.2, 0.65, 1, 0.85, 0.3, 0.15, 0.15, 0.4, 0.5, 1, 0.35],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ingenieria-mecanica"
+    },
+    {
+      "nombre": "Ingeniería en Telecomunicaciones",
+      "id": "telecomunicaciones",
+      "area": "Ingeniería y tecnología",
+      "descripcion": "Diseña sistemas que transmiten información mediante redes, señales, enlaces ópticos y comunicaciones inalámbricas.",
+      "materias": [
+        "Señales",
+        "Redes de comunicación",
+        "Sistemas de transmisión"
+      ],
+      "actividades": [
+        "Diseñar redes de comunicación",
+        "Evaluar sistemas de transmisión"
+      ],
+      "perfil": [1, 1, 0.05, 0.7, 0.4, 0.5, 0.15, 0.25, 0.2, 0.35, 0.35, 0.65, 0.9, 0.85, 0.25, 0.35, 0.4, 0.25, 0.55, 0.1, 0.45, 0.35, 0.5, 1, 0.4],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ingenieria-en-telecomunicaciones"
+    },
+    {
+      "nombre": "Ingeniería Química",
+      "id": "ingenieria-quimica",
+      "area": "Ingeniería y tecnología",
+      "descripcion": "Desarrolla y optimiza procesos que transforman materias primas en productos mediante operaciones físicas y químicas.",
+      "materias": [
+        "Operaciones unitarias",
+        "Termodinámica",
+        "Procesos químicos"
+      ],
+      "actividades": [
+        "Diseñar procesos industriales",
+        "Optimizar operaciones de plantas"
+      ],
+      "perfil": [0.95, 0.5, 0.45, 0.85, 0.45, 0.4, 0.15, 0.25, 0.15, 0.5, 0.45, 0.75, 0.8, 1, 0.3, 0.9, 0.75, 1, 0.35, 0.15, 0.1, 0.55, 0.65, 1, 0.4],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ingenieria-quimica"
+    },
+    {
+      "nombre": "Ingeniería Geofísica",
+      "id": "geofisica",
+      "area": "Ambiente y territorio",
+      "descripcion": "Aplica física y métodos de exploración al estudio del subsuelo, los recursos naturales y los fenómenos geológicos.",
+      "materias": [
+        "Geofísica",
+        "Geología",
+        "Métodos de exploración"
+      ],
+      "actividades": [
+        "Explorar el subsuelo",
+        "Analizar fenómenos geofísicos"
+      ],
+      "perfil": [1, 0.7, 0.3, 0.95, 0.45, 0.45, 0.15, 0.3, 0.2, 0.85, 0.25, 0.5, 0.95, 1, 0.5, 1, 0.6, 0.65, 0.35, 0.5, 0.2, 0.2, 1, 0.95, 0.35],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ingenieria-geofisica"
+    },
+    {
+      "nombre": "Ingeniería en Energías Renovables",
+      "id": "renovables",
+      "area": "Ingeniería y tecnología",
+      "descripcion": "Diseña y evalúa tecnologías para aprovechar fuentes renovables de energía y reducir impactos ambientales.",
+      "materias": [
+        "Energía solar",
+        "Sistemas energéticos",
+        "Ciencias de la ingeniería"
+      ],
+      "actividades": [
+        "Diseñar sistemas energéticos",
+        "Evaluar proyectos renovables"
+      ],
+      "perfil": [0.95, 0.7, 0.3, 0.85, 0.45, 0.5, 0.25, 0.35, 0.35, 0.65, 0.5, 0.75, 0.8, 0.95, 0.7, 1, 0.85, 0.75, 0.4, 0.2, 0.2, 0.65, 0.85, 0.95, 0.55],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ingenieria-en-energias-renovables"
+    },
+    {
+      "nombre": "Ingeniería en Sistemas Biomédicos",
+      "id": "biomedicos",
+      "area": "Ingeniería y tecnología",
+      "descripcion": "Integra ingeniería y ciencias de la salud para desarrollar, evaluar y gestionar equipos y sistemas médicos.",
+      "materias": [
+        "Instrumentación",
+        "Ingeniería biomédica",
+        "Sistemas mecánicos y electrónicos"
+      ],
+      "actividades": [
+        "Desarrollar instrumentación médica",
+        "Gestionar tecnología hospitalaria"
+      ],
+      "perfil": [0.95, 0.9, 0.85, 0.9, 0.5, 0.5, 0.6, 0.4, 0.35, 0.3, 0.2, 0.7, 0.85, 1, 0.4, 0.4, 0.9, 0.75, 0.4, 0.15, 0.2, 0.35, 0.35, 1, 0.6],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ingenieria-en-sistemas-biomedicos"
+    },
+    {
+      "nombre": "Cirujano Dentista",
+      "id": "odontologia",
+      "area": "Salud y ciencias de la vida",
+      "descripcion": "Previene y atiende problemas de salud bucodental mediante conocimientos clínicos y procedimientos odontológicos.",
+      "materias": [
+        "Anatomía",
+        "Odontología preventiva",
+        "Práctica clínica dental"
+      ],
+      "actividades": [
+        "Realizar atención bucodental",
+        "Promover prevención oral"
+      ],
+      "perfil": [0.35, 0.25, 1, 0.65, 0.55, 0.65, 0.95, 0.6, 0.35, 0.2, 0.2, 0.7, 0.55, 1, 0.55, 0.2, 0.55, 0.85, 0.35, 0.2, 0.2, 0.35, 0.45, 1, 0.55],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=cirujano-dentista"
+    },
+    {
+      "nombre": "Medicina Veterinaria y Zootecnia",
+      "id": "veterinaria",
+      "area": "Salud y ciencias de la vida",
+      "descripcion": "Atiende la salud animal y estudia sistemas de producción, bienestar y prevención de enfermedades compartidas con las personas.",
+      "materias": [
+        "Anatomía animal",
+        "Medicina veterinaria",
+        "Producción animal"
+      ],
+      "actividades": [
+        "Atender la salud animal",
+        "Mejorar sistemas de producción animal"
+      ],
+      "perfil": [0.5, 0.3, 1, 0.85, 0.55, 0.55, 0.55, 0.45, 0.1, 0.25, 0.35, 0.65, 0.7, 1, 0.55, 0.95, 0.4, 0.75, 0.25, 0.2, 0.15, 0.45, 1, 0.95, 0.45],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=medicina-veterinaria-y-zootecnia"
+    },
+    {
+      "nombre": "Nutriología",
+      "id": "nutriologia",
+      "area": "Salud y ciencias de la vida",
+      "descripcion": "Estudia la alimentación y su relación con la salud para desarrollar intervenciones individuales y comunitarias.",
+      "materias": [
+        "Nutrición",
+        "Ciencias de los alimentos",
+        "Salud pública"
+      ],
+      "actividades": [
+        "Evaluar necesidades nutricionales",
+        "Diseñar programas de alimentación"
+      ],
+      "perfil": [0.5, 0.25, 1, 0.8, 0.65, 0.75, 0.95, 0.8, 0.15, 0.1, 0.2, 0.65, 0.75, 0.8, 0.8, 0.7, 0.1, 0.85, 0.35, 0.5, 0.3, 0.4, 0.85, 0.9, 0.65],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=nutriologia"
+    },
+    {
+      "nombre": "Fisioterapia",
+      "id": "fisioterapia",
+      "area": "Salud y ciencias de la vida",
+      "descripcion": "Promueve y recupera el movimiento corporal mediante valoración e intervenciones que atienden necesidades funcionales.",
+      "materias": [
+        "Anatomía",
+        "Movimiento corporal",
+        "Intervención en fisioterapia"
+      ],
+      "actividades": [
+        "Evaluar el movimiento",
+        "Aplicar programas de rehabilitación"
+      ],
+      "perfil": [0.4, 0.3, 1, 0.65, 0.5, 0.7, 1, 0.75, 0.1, 0.3, 0.1, 0.6, 0.5, 1, 0.6, 0.2, 0.65, 0.3, 0.35, 0.15, 0.2, 0.15, 0.55, 0.95, 0.65],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=fisioterapia"
+    },
+    {
+      "nombre": "Farmacia",
+      "id": "farmacia",
+      "area": "Salud y ciencias de la vida",
+      "descripcion": "Participa en el desarrollo, evaluación y uso adecuado de medicamentos y en servicios farmacéuticos para la salud.",
+      "materias": [
+        "Farmacología",
+        "Tecnología farmacéutica",
+        "Control de calidad"
+      ],
+      "actividades": [
+        "Evaluar medicamentos",
+        "Apoyar el uso adecuado de fármacos"
+      ],
+      "perfil": [0.65, 0.35, 0.95, 0.85, 0.65, 0.55, 0.65, 0.45, 0.1, 0.1, 0.35, 0.8, 0.8, 0.9, 0.45, 0.55, 0.2, 1, 0.35, 0.2, 0.1, 0.4, 0.35, 1, 0.5],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=farmacia"
+    },
+    {
+      "nombre": "Química Farmacéutico Biológica",
+      "id": "qfb",
+      "area": "Salud y ciencias de la vida",
+      "descripcion": "Aplica química y biología al análisis clínico, la producción de medicamentos y la investigación relacionada con la salud.",
+      "materias": [
+        "Bioquímica",
+        "Análisis clínicos",
+        "Química farmacéutica"
+      ],
+      "actividades": [
+        "Realizar análisis de laboratorio",
+        "Investigar productos farmacéuticos"
+      ],
+      "perfil": [0.8, 0.4, 1, 1, 0.6, 0.4, 0.35, 0.4, 0.1, 0.1, 0.2, 0.75, 0.9, 1, 0.4, 0.65, 0.25, 1, 0.35, 0.15, 0.1, 0.2, 0.45, 1, 0.25],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=quimica-farmaceutico-biologica"
+    },
+    {
+      "nombre": "Ciencias Ambientales",
+      "id": "ambientales",
+      "area": "Ambiente y territorio",
+      "descripcion": "Analiza problemas ambientales integrando ciencias naturales y sociales para proponer estrategias de manejo de ecosistemas.",
+      "materias": [
+        "Ecología",
+        "Sistemas socioecológicos",
+        "Gestión ambiental"
+      ],
+      "actividades": [
+        "Evaluar problemas ambientales",
+        "Planear manejo de ecosistemas"
+      ],
+      "perfil": [0.65, 0.5, 0.8, 0.95, 0.65, 0.6, 0.35, 0.55, 0.2, 0.5, 0.2, 0.7, 0.85, 0.9, 0.9, 1, 0.3, 0.8, 0.35, 0.65, 0.3, 0.35, 1, 0.85, 0.8],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ciencias-ambientales"
+    },
+    {
+      "nombre": "Ingeniería Agrícola",
+      "id": "agricola",
+      "area": "Ambiente y territorio",
+      "descripcion": "Desarrolla soluciones para la producción y el manejo de cultivos considerando recursos naturales, tecnología y organización agrícola.",
+      "materias": [
+        "Producción vegetal",
+        "Ciencias del suelo",
+        "Tecnología agrícola"
+      ],
+      "actividades": [
+        "Mejorar sistemas de cultivo",
+        "Gestionar recursos agrícolas"
+      ],
+      "perfil": [0.7, 0.5, 0.85, 0.75, 0.4, 0.45, 0.25, 0.35, 0.15, 0.5, 0.55, 0.8, 0.7, 1, 0.65, 1, 0.85, 0.8, 0.25, 0.35, 0.1, 0.7, 1, 0.9, 0.6],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ingenieria-agricola"
+    },
+    {
+      "nombre": "Historia",
+      "id": "historia",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Investiga e interpreta procesos del pasado a partir de fuentes y debates para comprender sus relaciones con el presente.",
+      "materias": [
+        "Historiografía",
+        "Historia de México",
+        "Investigación histórica"
+      ],
+      "actividades": [
+        "Analizar fuentes históricas",
+        "Divulgar conocimiento histórico"
+      ],
+      "perfil": [0.2, 0.25, 0.1, 0.95, 1, 0.85, 0.3, 0.8, 0.25, 0.2, 0.1, 0.5, 0.65, 0.35, 0.95, 0.4, 0.05, 0.1, 0.8, 1, 0.45, 0.2, 0.85, 0.95, 0.5],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=historia"
+    },
+    {
+      "nombre": "Filosofía",
+      "id": "filosofia",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Examina problemas del conocimiento, la ética y la experiencia humana mediante lectura crítica y argumentación.",
+      "materias": [
+        "Lógica",
+        "Ética",
+        "Historia de la filosofía"
+      ],
+      "actividades": [
+        "Analizar argumentos",
+        "Investigar problemas filosóficos"
+      ],
+      "perfil": [0.45, 0.2, 0.15, 0.85, 1, 1, 0.4, 0.75, 0.2, 0.1, 0.1, 0.35, 0.5, 0.15, 0.9, 0.4, 0.05, 0.1, 0.75, 1, 0.2, 0.1, 0.3, 0.85, 0.8],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=filosofia"
+    },
+    {
+      "nombre": "Lengua y Literaturas Hispánicas",
+      "id": "hispanicas",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Estudia la lengua española y las literaturas hispánicas mediante análisis lingüístico, investigación y crítica literaria.",
+      "materias": [
+        "Lingüística",
+        "Literatura hispánica",
+        "Crítica literaria"
+      ],
+      "actividades": [
+        "Analizar textos literarios",
+        "Investigar y enseñar lengua y literatura"
+      ],
+      "perfil": [0.15, 0.2, 0.05, 0.75, 1, 0.95, 0.3, 0.85, 0.3, 0.05, 0.1, 0.4, 0.4, 0.3, 0.65, 0.15, 0.05, 0.05, 0.95, 1, 0.5, 0.1, 0.35, 0.95, 0.45],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=lengua-y-literaturas-hispanicas"
+    },
+    {
+      "nombre": "Letras Clásicas",
+      "id": "clasicas",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Estudia las lenguas, la literatura y la cultura de Grecia y Roma para investigar, traducir y difundir su legado.",
+      "materias": [
+        "Griego",
+        "Latín",
+        "Filología clásica"
+      ],
+      "actividades": [
+        "Interpretar textos clásicos",
+        "Investigar cultura grecolatina"
+      ],
+      "perfil": [0.15, 0.15, 0.05, 0.9, 1, 0.75, 0.2, 0.8, 0.15, 0.1, 0.05, 0.35, 0.45, 0.2, 0.6, 0.15, 0.05, 0.1, 1, 1, 0.15, 0.05, 0.45, 1, 0.3],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=letras-clasicas"
+    },
+    {
+      "nombre": "Traducción",
+      "id": "traduccion",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Resuelve problemas de comunicación entre lenguas y culturas al traducir textos de distintos ámbitos y formatos.",
+      "materias": [
+        "Lenguas",
+        "Teoría de la traducción",
+        "Terminología"
+      ],
+      "actividades": [
+        "Traducir textos especializados",
+        "Investigar terminología y contextos"
+      ],
+      "perfil": [0.2, 0.5, 0.1, 0.65, 1, 1, 0.4, 0.5, 0.2, 0.05, 0.35, 0.75, 0.5, 0.6, 0.65, 0.2, 0.1, 0.15, 1, 0.9, 0.6, 0.3, 0.35, 1, 0.7],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=traduccion"
+    },
+    {
+      "nombre": "Sociología",
+      "id": "sociologia",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Investiga la vida social y sus transformaciones con teorías y métodos que permiten analizar comunidades e instituciones.",
+      "materias": [
+        "Teoría social",
+        "Métodos de investigación",
+        "Cambio social"
+      ],
+      "actividades": [
+        "Investigar procesos sociales",
+        "Analizar datos de comunidades"
+      ],
+      "perfil": [0.5, 0.35, 0.15, 1, 0.95, 0.85, 0.55, 0.55, 0.15, 0.15, 0.25, 0.5, 0.9, 0.5, 1, 0.6, 0.05, 0.1, 0.6, 0.95, 0.35, 0.35, 1, 0.85, 0.8],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=sociologia"
+    },
+    {
+      "nombre": "Ciencias Políticas y Administración Pública",
+      "id": "politicas",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Analiza el gobierno y los procesos políticos para diseñar y evaluar propuestas frente a necesidades públicas.",
+      "materias": [
+        "Teoría política",
+        "Administración pública",
+        "Políticas públicas"
+      ],
+      "actividades": [
+        "Analizar políticas públicas",
+        "Gestionar programas e instituciones"
+      ],
+      "perfil": [0.45, 0.3, 0.1, 0.8, 0.95, 1, 0.55, 0.4, 0.1, 0.15, 0.5, 0.95, 0.75, 0.4, 1, 0.6, 0.1, 0.1, 0.75, 0.9, 0.35, 0.8, 0.8, 0.85, 1],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ciencias-politicas-y-administracion-publica"
+    },
+    {
+      "nombre": "Geografía",
+      "id": "geografia",
+      "area": "Ambiente y territorio",
+      "descripcion": "Estudia las relaciones entre sociedad y espacio físico mediante análisis territorial, cartografía y conocimiento del ambiente.",
+      "materias": [
+        "Geografía física",
+        "Geografía humana",
+        "Cartografía"
+      ],
+      "actividades": [
+        "Analizar cambios territoriales",
+        "Elaborar estudios cartográficos"
+      ],
+      "perfil": [0.65, 0.65, 0.4, 0.85, 0.7, 0.55, 0.25, 0.5, 0.55, 0.9, 0.2, 0.55, 0.9, 0.85, 0.9, 1, 0.25, 0.4, 0.5, 0.85, 0.45, 0.25, 1, 0.95, 0.55],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=geografia"
+    },
+    {
+      "nombre": "Artes Visuales",
+      "id": "artes",
+      "area": "Diseño y creación",
+      "descripcion": "Explora lenguajes, materiales y procesos artísticos para desarrollar obras y proyectos de expresión visual.",
+      "materias": [
+        "Producción artística",
+        "Teoría del arte",
+        "Técnicas visuales"
+      ],
+      "actividades": [
+        "Crear obra visual",
+        "Investigar técnicas y materiales artísticos"
+      ],
+      "perfil": [0.15, 0.35, 0.1, 0.65, 0.6, 0.7, 0.25, 0.55, 1, 0.55, 0.2, 0.45, 0.2, 1, 0.65, 0.55, 0.25, 0.7, 0.45, 0.95, 0.95, 0.2, 0.65, 0.85, 0.4],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=artes-visuales"
+    },
+    {
+      "nombre": "Enseñanza de Inglés",
+      "id": "ingles",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Combina el estudio del inglés, la lingüística y la didáctica para diseñar experiencias de aprendizaje de una lengua extranjera.",
+      "materias": [
+        "Lingüística",
+        "Didáctica",
+        "Lengua inglesa"
+      ],
+      "actividades": [
+        "Enseñar inglés",
+        "Diseñar materiales y evaluaciones"
+      ],
+      "perfil": [0.15, 0.35, 0.1, 0.55, 0.95, 1, 0.8, 1, 0.35, 0.05, 0.2, 0.7, 0.35, 0.65, 0.6, 0.2, 0.05, 0.05, 1, 0.85, 0.6, 0.15, 0.35, 0.85, 0.75],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=ensenanza-de-ingles"
+    },
+    {
+      "nombre": "Cinematografía",
+      "id": "cine",
+      "area": "Diseño y creación",
+      "descripcion": "Integra narración, imagen, sonido y producción para realizar obras cinematográficas en distintos formatos.",
+      "materias": [
+        "Guion",
+        "Fotografía cinematográfica",
+        "Montaje"
+      ],
+      "actividades": [
+        "Desarrollar guiones y películas",
+        "Coordinar producción audiovisual"
+      ],
+      "perfil": [0.2, 0.6, 0.05, 0.55, 0.85, 0.9, 0.3, 0.25, 1, 0.5, 0.35, 0.85, 0.25, 1, 0.8, 0.35, 0.4, 0.2, 0.65, 0.9, 1, 0.65, 0.8, 0.9, 0.85],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=cinematografia"
+    },
+    {
+      "nombre": "Bibliotecología y Estudios de la Información",
+      "id": "bibliotecologia",
+      "area": "Sociedad y humanidades",
+      "descripcion": "Organiza recursos documentales y servicios de información para facilitar su búsqueda, conservación y uso por distintas comunidades.",
+      "materias": [
+        "Organización documental",
+        "Tecnologías de la información",
+        "Servicios bibliotecarios"
+      ],
+      "actividades": [
+        "Organizar colecciones documentales",
+        "Diseñar servicios de información"
+      ],
+      "perfil": [0.35, 0.7, 0.05, 0.75, 0.9, 0.65, 0.65, 0.65, 0.15, 0.1, 0.2, 1, 0.85, 0.5, 0.65, 0.25, 0.05, 0.15, 0.75, 0.9, 0.35, 0.35, 0.4, 1, 0.65],
+      "fuente": "https://oferta.unam.mx/carrera.php?c=bibliotecologia-y-estudios-de-la-informacion"
+    }
+  ]
+}
